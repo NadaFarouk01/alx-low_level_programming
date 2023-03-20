@@ -3,23 +3,21 @@
 /**
  * main - Entry point
  *
- * Description: print all aplhabet letters except q and e
+ * Description: print all single digit numbers
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char ch = 'a';
+	int digit = 0;
 
-	while (ch <= 'z')
+	while (digit <= 9)
 	{
-		if (ch == 'e' || ch == 'q')
-			ch++;
-		putchar(ch);
-		ch++;
+		printf("%i", digit);
+		digit++;
 	}
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
