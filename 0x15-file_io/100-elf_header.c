@@ -119,9 +119,9 @@ void print_data(unsigned char *e_ident)
 }
 
 /**
- *  * print_version - a copy of an ELF header must be printed .
- *   * @e_ident: B refers to a pointer of an array,
- *   that contains the ELF copy. 
+ *  * print_version - a copy of an ELF header must be printed.
+ *  * @e_ident: B refers to a pointer of an array,
+ *  that contains the ELF copy. 
  *    */
 void print_version(unsigned char *e_ident)
 {
